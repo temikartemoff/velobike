@@ -30,6 +30,7 @@ a {
 
 ul li {
   list-style: none;
+  margin: 0;
 }
 
 img {
@@ -39,6 +40,7 @@ img {
 p {
   width: auto;
   overflow-wrap: break-word;
+  margin: 0;
 }
 
 .container {
@@ -251,6 +253,60 @@ p {
 }
 .info-list-item .info-text {
   margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.characters {
+  margin-bottom: 150px;
+}
+
+.characters-header {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.characters-items {
+  width: 570px;
+}
+
+.characters-list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.characters-list-title {
+  padding: 2px 0 2px 0px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+}
+
+.characters-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.characters-name {
+  width: 285px;
+  padding: 10px 0 5px 0;
+}
+
+.characters-disc {
+  width: 285px;
+  padding: 10px 0 5px 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
