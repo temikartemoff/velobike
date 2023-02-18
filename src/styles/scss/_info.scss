@@ -8,14 +8,14 @@
         flex-basis: 570px;
         object-fit: cover;
     }
-    &-list {
+    &-list{
         flex-basis: 490px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin: 0;
     }
-    &-list-item {
+    &-list-item{
         display: flex;
         flex-direction: column;
         &:not(:last-child){
