@@ -103,7 +103,7 @@ p {
   font-weight: 700;
   font-size: 64px;
   line-height: 77px;
-  margin-bottom: 5px;
+  margin: 74px 0 5px 0;
 }
 .bike-left-subtitle {
   font-weight: 400;
@@ -143,7 +143,7 @@ p {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 27px;
+  margin-top: 74px;
 }
 .bike-list-item {
   display: -webkit-box;
@@ -157,14 +157,44 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
-.bike-list-item:nth-child(1) {
+.bike-list-item span:nth-child(1) {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
-.bike-list-item:nth-child(2) {
+.bike-list-item span:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 53px;
+  min-width: 160px;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+}
+.bike .slider-img {
+  position: relative;
+}
+.bike .slider-lines {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.bike .slider-lines span {
+  width: 2px;
+  height: 15px;
+  background: #ff4040;
 }
