@@ -8,7 +8,13 @@
   text-transform: uppercase;
   margin-bottom: 40px;
 }
-.characters-items {
+.characters-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.characters-wrapper {
   width: 570px;
 }
 .characters-list {
@@ -40,3 +46,9 @@
   font-size: 14px;
   line-height: 1.2;
 }
+
+.characters-img{
+    width: 570px;
+}
+
+

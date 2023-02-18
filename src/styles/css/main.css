@@ -270,7 +270,19 @@ p {
   margin-bottom: 40px;
 }
 
-.characters-items {
+.characters-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.characters-wrapper {
   width: 570px;
 }
 
@@ -310,4 +322,8 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
+}
+
+.characters-img {
+  width: 570px;
 }
